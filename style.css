@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.panier {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+button {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.aimer {
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+.aimer.aime {
+    color: red;
+}
